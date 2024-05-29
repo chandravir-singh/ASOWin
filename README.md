@@ -1,4 +1,6 @@
 Layout XML Description
+
+
 The layout is defined in an XML file, which structures the user interface components. Below is a brief explanation of the key components:
 
 RelativeLayout: The main container that positions its children relative to each other.
