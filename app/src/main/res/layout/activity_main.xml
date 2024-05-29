@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".MainActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtASO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:text="ASO"
+                android:textColor="@color/yellow"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtwin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/txtASO"
+                android:text="Win"
+                android:textColor="@color/orange"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtmsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtASO"
+                android:layout_marginStart="25dp"
+                android:text="App Store Optimization"
+                android:textColor="@color/yellow"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:padding="5dp"
+                android:src="@drawable/hamburger" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:backgroundTint="@drawable/yellow"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="320dp"
+                android:layout_height="15dp"
+                android:layout_below="@id/txtmsg"
+                android:layout_centerHorizontal="true"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/linear_progress_bar"
+                android:layout_marginTop="20dp"
+                android:max="100"
+                android:padding="5dp"
+                android:progress="68"
+                android:progressBackgroundTint="#B2B1B0"
+                android:progressTint="@color/orange" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/progressBar"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:padding="2dp"
+                    android:text="Upload the "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/yellow"
+                    android:padding="2dp"
+                    android:text="Screenshot"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=" of the app"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/UploadFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="10dp"
+                android:text="Upload File"
+                android:textColor="@color/yellow"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/UploadFileMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/UploadFile"
+                android:layout_marginStart="48dp"
+                android:text="Upload the Screenshot of the app to earn money and get instant cash"
+                android:textColor="@color/black"
+                android:textSize="8.5sp" />
+
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:id="@+id/uploadImages"
+                android:layout_width="320dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="290dp"
+                android:layout_below="@id/UploadFileMsg"
+                android:background="@drawable/banner_bg">
+
+                <ImageView
+                    android:id="@+id/imgFileUpload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/file_upload"
+                    android:layout_marginTop="50dp"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/txtDrag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/imgFileUpload"
+                    android:text="Drag and drop files here \n \t\t\t\t\t\t\t- OR - "
+                    android:textColor="@color/yellow"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnBrowseFiles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Browse Files"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:background="@drawable/yellow"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/txtDrag" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/progressLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/uploadImages"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:text="Progress"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/progress"
+                    android:layout_marginHorizontal="35dp"
+                    android:background="@drawable/banner_bg"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="8dp"
+                        android:src="@drawable/image_upload" />
+
+                    <TextView
+                        android:id="@+id/TOIApp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/image"
+                        android:text="TOI App  (33.33%)"
+                        android:textColor="@color/grey"
+                        android:textSize="9sp" />
+
+                    <TextView
+                        android:id="@+id/pending"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="35dp"
+                        android:text="Pending"
+                        android:textColor="@color/grey"
+                        android:textSize="9sp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar1"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="230dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/image"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/linear_progress_bar"
+                        android:max="100"
+                        android:padding="5dp"
+                        android:progress="33"
+                        android:progressBackgroundTint="#B2B1B0"
+                        android:progressTint="@color/orange" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/progressLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_btn"
+                android:text="Next Step"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:id="@+id/AsowinBottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnNext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp">
+
+                <TextView
+                    android:id="@+id/txtASOBottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:text="ASO"
+                    android:textColor="@color/yellow"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtWinBottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/txtASOBottom"
+                    android:text="Win"
+                    android:textColor="@color/orange"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtMsgBotttom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtASOBottom"
+                    android:layout_marginStart="25dp"
+                    android:text="App Store Optimization"
+                    android:textColor="@color/yellow"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/AsowinBottom"
+                android:layout_centerHorizontal="true"
+                android:text="Products &amp; Services"
+                android:textColor="@color/grey"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>
