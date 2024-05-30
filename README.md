@@ -18,6 +18,9 @@ LinearLayout: Organizes text elements horizontally.
 Buttons: Interact with the app, such as uploading files and proceeding to the next step.
 
 
+Here is apk file of this app :-
+https://drive.google.com/file/d/1u69bydF3OZnTttHjR1wOAvqIL6tXlUg3/view?usp=sharing
+
 
 ### README.md for GitHub
 
@@ -45,7 +48,7 @@ Before you begin, ensure you have the following:
 ### Step 1: Clone the Repository
 Clone the repository to your local machine using Git:
 ```sh
-git clone [https://github.com/yourusername/ASO-Win.git](https://github.com/chandravir-singh/ASOWin.git)
+git clone https://github.com/chandravir-singh/ASOWin.git
 cd ASO-Win
 ```
 
@@ -84,7 +87,7 @@ ASO-Win/
 ├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/com/yourusername/asowin/
+│   │   │   ├── java/com/chandravir/asowin/
 │   │   │   │   ├── MainActivity.kt
 │   │   │   │   └── ...
 │   │   │   ├── res/
