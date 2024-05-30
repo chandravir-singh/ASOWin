@@ -18,12 +18,6 @@ LinearLayout: Organizes text elements horizontally.
 Buttons: Interact with the app, such as uploading files and proceeding to the next step.
 
 
-Here is the screenshot :-
-
-
-![asowin](https://github.com/chandravir-singh/ASOWin/assets/118761016/571c8ed0-e0b8-42fc-ae50-c30cb3831d58)
-
-
 
 ### README.md for GitHub
 
@@ -51,7 +45,7 @@ Before you begin, ensure you have the following:
 ### Step 1: Clone the Repository
 Clone the repository to your local machine using Git:
 ```sh
-git clone https://github.com/yourusername/ASO-Win.git
+git clone [https://github.com/yourusername/ASO-Win.git](https://github.com/chandravir-singh/ASOWin.git)
 cd ASO-Win
 ```
 
@@ -91,7 +85,7 @@ ASO-Win/
 │   ├── src/
 │   │   ├── main/
 │   │   │   ├── java/com/yourusername/asowin/
-│   │   │   │   ├── MainActivity.java
+│   │   │   │   ├── MainActivity.kt
 │   │   │   │   └── ...
 │   │   │   ├── res/
 │   │   │   │   ├── layout/
@@ -112,7 +106,7 @@ ASO-Win/
 4. The app should now compile and launch on your device.
 
 ## Screenshots
-Include screenshots of the app to give users a preview of what to expect.
+![asowin](https://github.com/chandravir-singh/ASOWin/assets/118761016/571c8ed0-e0b8-42fc-ae50-c30cb3831d58)
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
