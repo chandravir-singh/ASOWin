@@ -23,23 +23,35 @@ https://drive.google.com/file/d/1u69bydF3OZnTttHjR1wOAvqIL6tXlUg3/view?usp=shari
 
 
 Clone Android Project from GitHub in Android Studio
+
 Method 1
 Step 1: Open your Android Studio then go to the File > New > Project from Version Control as shown in the below image. 
+![Clone2](https://github.com/chandravir-singh/ASOWin/assets/118761016/85c6f875-ead2-4bbf-b1f3-1be357c1b4b6)
 
 Clone Android Project from GitHub in Android Studio
 
 Step 2: After clicking on the Project from Version Control a pop-up screen will arise like below. In the Version control choose Git from the drop-down menu. 
 
+![Clone3](https://github.com/chandravir-singh/ASOWin/assets/118761016/7bfcf7de-9bbf-440a-a396-5c186246705c)
+
+
 Clone Android Project from GitHub in Android Studio
 
 Step 3: Then at last paste the link in the URL and choose your Directory. Click on the Clone button and you are done.
+
+![Clone4](https://github.com/chandravir-singh/ASOWin/assets/118761016/0b1d2ab6-d957-4c17-aad0-3b1bc6073965)
+
 
 Clone Android Project from GitHub in Android Studio
 
 Method 2
 Step 1: Click on the Checkout Project from Version Control. In Version control choose Git from the drop-down menu.
 
+![Screenshot758](https://github.com/chandravir-singh/ASOWin/assets/118761016/2bbe1b71-a5fb-4544-8d00-3a16e423cad6)
 
 
 Step 2: Then a pop-up box will come. Paste the link in the URL and choose your Directory. Click on the Clone button and you are done.
+
+![Screenshot760](https://github.com/chandravir-singh/ASOWin/assets/118761016/52632163-08ed-45d7-affe-d547443c2b9a)
+
 
