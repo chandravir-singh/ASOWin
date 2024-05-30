@@ -22,137 +22,24 @@ Here is apk file of this app :-
 https://drive.google.com/file/d/1u69bydF3OZnTttHjR1wOAvqIL6tXlUg3/view?usp=sharing
 
 
-### README.md for GitHub
+Clone Android Project from GitHub in Android Studio
+Method 1
+Step 1: Open your Android Studio then go to the File > New > Project from Version Control as shown in the below image. 
 
-```markdown
-# ASO Win App
+Clone Android Project from GitHub in Android Studio
 
-ASO Win is an Android application designed to optimize app store presence and engagement. This README provides a step-by-step guide on how to set up the ASO Win app in Android Studio from scratch.
+Step 2: After clicking on the Project from Version Control a pop-up screen will arise like below. In the Version control choose Git from the drop-down menu. 
 
-## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Running the App](#running-the-app)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+Clone Android Project from GitHub in Android Studio
 
-## Prerequisites
-Before you begin, ensure you have the following:
-- Android Studio installed. You can download it from the official [Android Studio website](https://developer.android.com/studio).
-- Basic understanding of Android development and Git.
+Step 3: Then at last paste the link in the URL and choose your Directory. Click on the Clone button and you are done.
 
-## Installation
+Clone Android Project from GitHub in Android Studio
 
-### Step 1: Clone the Repository
-Clone the repository to your local machine using Git:
-```sh
-git clone https://github.com/chandravir-singh/ASOWin.git
-cd ASO-Win
-```
+Method 2
+Step 1: Click on the Checkout Project from Version Control. In Version control choose Git from the drop-down menu.
 
-### Step 2: Open in Android Studio
-1. Open Android Studio.
-2. Select `Open an existing Android Studio project`.
-3. Navigate to the `ASO-Win` directory and click `OK`.
 
-### Step 3: Sync Project with Gradle Files
-1. Once the project is opened in Android Studio, it will automatically start syncing with Gradle.
-2. If it doesn't, click on `File > Sync Project with Gradle Files`.
 
-### Step 4: Install Dependencies
-Ensure all necessary dependencies are included in your `build.gradle` files. These are typically managed automatically, but double-check the following dependencies in your `app/build.gradle` file:
-```groovy
-dependencies {
-    implementation 'androidx.core:core-ktx:1.6.0'
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-}
-```
-Click `Sync Now` if required.
-
-### Step 5: Build the Project
-1. Build the project by selecting `Build > Rebuild Project` from the menu.
-2. Resolve any build errors that may arise.
-
-## Project Structure
-
-```
-ASO-Win/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/chandravir/asowin/
-│   │   │   │   ├── MainActivity.kt
-│   │   │   │   └── ...
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   └── activity_main.xml
-│   │   │   │   └── ...
-│   │   │   └── AndroidManifest.xml
-│   │   └── test/
-│   │       └── ...
-│   └── build.gradle
-├── build.gradle
-└── settings.gradle
-```
-
-## Running the App
-1. Connect your Android device via USB or start an Android Emulator.
-2. Click the `Run` button in Android Studio or select `Run > Run 'app'`.
-3. Choose your device or emulator and click `OK`.
-4. The app should now compile and launch on your device.
-
-## Screenshots
-![asowin](https://github.com/chandravir-singh/ASOWin/assets/118761016/571c8ed0-e0b8-42fc-ae50-c30cb3831d58)
-
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request.
-
-### Steps to Contribute:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature-branch`.
-5. Submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### How to Set Up the App in Android Studio from Scratch
-
-1. **Install Android Studio**:
-   - Download and install [Android Studio](https://developer.android.com/studio).
-
-2. **Create a New Project**:
-   - Open Android Studio and click on `Start a new Android Studio project`.
-   - Select a template (e.g., `Empty Activity`) and click `Next`.
-   - Fill in the project details (name, package name, save location, language, minimum API level) and click `Finish`.
-
-3. **Set Up the Project Structure**:
-   - Open the `Project` view from the left sidebar.
-   - Key directories include:
-     - `app/src/main/java`: For Java/Kotlin source files.
-     - `app/src/main/res`: For resources like layouts, drawables, and values.
-
-4. **Add Dependencies**:
-   - Open `build.gradle` in the `app` directory.
-   - Add necessary dependencies and click `Sync Now`.
-
-5. **Create Layout XML**:
-   - Right-click on `res/layout`, select `New > Layout resource file`.
-   - Name it `activity_main.xml` and add the layout code provided above.
-
-6. **Build and Run the App**:
-   - Click `Build > Rebuild Project`.
-   - Connect a device or start an emulator.
-   - Click `Run` or `Run > Run 'app'`.
-
-By following these steps, you should have the ASO Win app set up and running in Android Studio. If you encounter any issues, refer to the documentation or seek help from the community. Happy coding!
+Step 2: Then a pop-up box will come. Paste the link in the URL and choose your Directory. Click on the Clone button and you are done.
 
