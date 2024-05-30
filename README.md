@@ -22,6 +22,11 @@ Here is apk file of this app :-
 https://drive.google.com/file/d/1u69bydF3OZnTttHjR1wOAvqIL6tXlUg3/view?usp=sharing
 
 
+Code button then copy the hyperlink as shown in the below image. You may copy the link manually or by just click on the Copy icon. 
+
+![image](https://github.com/chandravir-singh/ASOWin/assets/118761016/58781863-7758-4a01-b36d-c092b32c90ff)
+
+
 Clone Android Project from GitHub in Android Studio
 
 Method 1
