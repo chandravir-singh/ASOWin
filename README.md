@@ -18,8 +18,11 @@ LinearLayout: Organizes text elements horizontally.
 Buttons: Interact with the app, such as uploading files and proceeding to the next step.
 
 
+
 Here is apk file of this app :-
 https://drive.google.com/file/d/1u69bydF3OZnTttHjR1wOAvqIL6tXlUg3/view?usp=sharing
+
+
 
 
 Code button then copy the hyperlink as shown in the below image. You may copy the link manually or by just click on the Copy icon. 
@@ -28,27 +31,25 @@ Code button then copy the hyperlink as shown in the below image. You may copy th
 
 
 
-Clone Android Project from GitHub in Android Studio
 
 Method 1
 Step 1: Open your Android Studio then go to the File > New > Project from Version Control as shown in the below image. 
 ![Clone2](https://github.com/chandravir-singh/ASOWin/assets/118761016/85c6f875-ead2-4bbf-b1f3-1be357c1b4b6)
 
-Clone Android Project 
+Select Clone 
 
 Step 2: After clicking on the Project from Version Control a pop-up screen will arise like below. In the Version control choose Git from the drop-down menu. 
 
 ![Clone3](https://github.com/chandravir-singh/ASOWin/assets/118761016/7bfcf7de-9bbf-440a-a396-5c186246705c)
 
 
-Clone Android Project 
+Select Clone
 
 Step 3: Then at last paste the link in the URL and choose your Directory. Click on the Clone button and you are done.
 
 ![Clone4](https://github.com/chandravir-singh/ASOWin/assets/118761016/0b1d2ab6-d957-4c17-aad0-3b1bc6073965)
 
 
-Clone Android Project from GitHub in Android Studio
 
 Method 2
 Step 1: Click on the Checkout Project from Version Control. In Version control choose Git from the drop-down menu.
